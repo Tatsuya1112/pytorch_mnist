@@ -7,7 +7,6 @@ import torch.nn as nn
 from tqdm import tqdm
 from utils import AverageMeter
 import models
-
 import torch.optim as optim
 
 arch_names = list(models.__dict__.keys())
