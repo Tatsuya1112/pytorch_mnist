@@ -1,6 +1,7 @@
-Overview
+## pytorch_mnist
 
-## Description
+MNISTをpytorchを用いて分類しました。
+https://www.oreilly.co.jp/books/9784873117584/
 
 ## Requirements
 
