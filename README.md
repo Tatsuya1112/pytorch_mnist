@@ -1,6 +1,6 @@
 # pytorch_mnist
 
-MNISTをpytorchを用いて分類しました。
+MNISTをpytorchを用いて分類します
 
 # Requirements
 
