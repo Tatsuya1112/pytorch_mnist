@@ -12,5 +12,5 @@ torchvision
 
 | model | accuracy | cross-entropy-loss |
 | ---- | ---- | ---- |
-| TwoLayerNet | 0.968 | 0.077 |
+| TwoLayerNet | 0.972 | 0.103 |
 | SimpleConvNet | 0.988 | 0.059 |
