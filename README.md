@@ -10,6 +10,18 @@ torchvision
 
 tqdm
 
+# Datasets
+
+dataフォルダを作成し、torchvisonのMNISTデータセットをダウンロードします
+
+```python
+if not os.path.exists('./data'):
+    os.makedirs('./data')
+
+trainset = torchvision.datasets.MNIST(root='./data', download=True, train=True, transform=transforms.ToTensor())
+testset = torchvision.datasets.MNIST(root='./data', download=True, train=False, transform=transforms.ToTensor())
+```
+
 # Models
 
 ### TwoLayerNet
