@@ -1,14 +1,14 @@
-## pytorch_mnist
+# pytorch_mnist
 
 MNISTをpytorchを用いて分類しました。
 
-## Requirements
+# Requirements
 
 torch
 
 torchvision
 
-## Models
+# Models
 
 ### TwoLayerNet
 
@@ -52,14 +52,14 @@ Non-trainable params: 0
 ----------------------------------------------------------------
 ```
 
-## Results
+# Results
 
 | model | accuracy | cross-entropy-loss |
 | ---- | ---- | ---- |
 | TwoLayerNet | 0.972 | 0.103 |
 | SimpleConvNet | 0.988 | 0.059 |
 
-## References
+# References
 
 ゼロから作るDeep Learning――Pythonで学ぶディープラーニングの理論と実装
 https://www.oreilly.co.jp/books/9784873117584/
