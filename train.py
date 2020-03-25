@@ -42,10 +42,6 @@ net.to(args.device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(net.parameters())
 
-from torchsummary import summary
-summary(net, (1, 28, 28))
-exit()
-
 for epoch in range(args.epochs):
     # train
     train_loss = AverageMeter()
