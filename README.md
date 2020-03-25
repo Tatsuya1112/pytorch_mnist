@@ -1,5 +1,3 @@
-# pytorch_mnist
-
 # Requirements
 
 torch
