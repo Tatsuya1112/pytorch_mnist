@@ -28,7 +28,7 @@ testset = torchvision.datasets.MNIST(root='./data', download=True, train=False, 
 
 ### TwoLayerNet
 
-2層の全結合層のみからなるモデル
+2層の全結合層のみから成るモデル
 
 
 ```
