@@ -1,3 +1,4 @@
+import os
 import torch
 import torchvision
 import torchvision.transforms as transforms
@@ -26,6 +27,9 @@ print('Config -----')
 for arg in vars(args):
     print('{:}: {:}'.format(arg, getattr(args, arg)))
 print('------------')
+
+if not os.path.exists('./data'):
+    os.makedirs('./data')
 
 trainset = torchvision.datasets.MNIST(root='./data', download=True, train=True, transform=transforms.ToTensor())
 testset = torchvision.datasets.MNIST(root='./data', download=True, train=False, transform=transforms.ToTensor())
