@@ -6,11 +6,11 @@ MNISTをpytorchを用いて分類します
 
 # Requirements
 
+```
 torch
-
 torchvision
-
 tqdm
+```
 
 # Datasets
 
