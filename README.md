@@ -8,6 +8,8 @@ torch
 
 torchvision
 
+tqdm
+
 # Models
 
 ### TwoLayerNet
