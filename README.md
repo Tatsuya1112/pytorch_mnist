@@ -2,6 +2,8 @@
 
 MNISTをpytorchを用いて分類します
 
+![あ無qqs](https://user-images.githubusercontent.com/45190789/77528170-cbd1d200-6ed0-11ea-8954-203884445987.png)
+
 # Requirements
 
 torch
@@ -21,8 +23,6 @@ if not os.path.exists('./data'):
 trainset = torchvision.datasets.MNIST(root='./data', download=True, train=True, transform=transforms.ToTensor())
 testset = torchvision.datasets.MNIST(root='./data', download=True, train=False, transform=transforms.ToTensor())
 ```
-
-![あ無qqs](https://user-images.githubusercontent.com/45190789/77528170-cbd1d200-6ed0-11ea-8954-203884445987.png)
 
 # Models
 
