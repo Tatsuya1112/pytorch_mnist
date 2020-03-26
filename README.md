@@ -1,6 +1,6 @@
 # pytorch_mnist
 
-MNISTをpytorchを用いて分類します
+MNISTをpytorchを用いてニューラルネットワークで分類します
 
 ![あ無qqs](https://user-images.githubusercontent.com/45190789/77528170-cbd1d200-6ed0-11ea-8954-203884445987.png)
 
