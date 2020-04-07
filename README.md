@@ -12,7 +12,7 @@ torchvision
 tqdm
 ```
 
-# Datasets
+# Dataset
 
 dataフォルダを作成し、torchvisonのMNISTデータセットをダウンロードします
 
